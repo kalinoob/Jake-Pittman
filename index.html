@@ -1,36 +1,154 @@
-   <!-- Updated portfolio website -->
-   <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Pittman - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <h1>Jake Pittman</h1>
+        <p>Sales Professional & Data Analyst</p>
+    </header>
 
-Jake Pittman
-Sales Professional & Data Analyst
-	•	About
-	•	Projects
-	•	Experience
-	•	Skills
-About Me
-Experienced sales professional with a strong background in data analysis and machine learning. Skilled in developing innovative solutions to drive business growth and improve operational efficiency.
-Projects
-	•	EA Call Flow Script Department call flow script
-	•	Jake Call Flow Script v2.0 Call flow script for my team
-	•	Account Spotlight Account Spotlight working sheet showing logic for lead scoring
-	•	Mistral 7b Fine Tune A fine-tuned LLM personalized to my coaching
-	•	Open Opportunity Prediction Model A python based learning model predicting opportunities as closed won/lost
-	•	Whale Finder Model A python based learning model identifying factors affecting deal size
-	•	Reactivation Identifier A python based learning model predicting accounts most likely to reactivate
-	•	The Cash Cow - GPT An OpenAI custom GPT based on sales trainings and call transcripts
-Professional Experience
-Sales Manager - Mid-Market | November 2021 - Present
-Salesforce
-	•	Exceeded $4.4MM in bookings MRR by leading a team of 12 account managers, expanding existing 100% YoY
-	•	Drove 115% attainment through strategic account planning and pipeline management
-	•	Coached and mentored team members on sales tactics and AI-Draper methodology
-Senior Strategic Account Manager, Mid-Market | April 2019 - November 2021
-Salesforce
-	•	Consistently ranked in the top 5% of 1000+ sales reps, earning President's Club honors in 2019 and 2020
-Skills & Technologies
-	•	Sales Leadership & Business Development
-	•	Account Management & Customer Success
-	•	Data Analysis & ML Implementation
-	•	Python, SQL, Salesforce, Excel
-	•	AI/ML Technologies (OpenAI, Langchain, etc.)
-© 2024 Jake Pittman. All rights reserved.
+    <nav>
+        <ul>
+            <li><a href="#top-projects">Top Projects</a></li>
+            <li><a href="#all-projects">All Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="top-projects">
+            <h2>Top Projects</h2>
+            <div class="carousel">
+                <div>
+                    <h3>EA Call Flow Script</h3>
+                    <p>Department call flow script</p>
+                    <a href="EA Call Flow.xlsx" target="_blank">View Project</a>
+                </div>
+                <div>
+                    <h3>Account Spotlight</h3>
+                    <p>Account Spotlight working sheet showing logic for lead scoring</p>
+                    <a href="Working Sheet - Account Spotlight (2).xlsx" target="_blank">View Project</a>
+                </div>
+                <div>
+                    <h3>Mistral 7b Fine Tune</h3>
+                    <p>A fine-tuned LLM personalized to my coaching</p>
+                    <a href="mistral-finetune-own-data (1).ipynb" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-projects">
+            <h2>All Projects</h2>
+            <ul>
+                <li>
+                    <h3>EA Call Flow Script</h3>
+                    <p>Department call flow script</p>
+                    <a href="EA Call Flow.xlsx" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Jake Call Flow Script</h3>
+                    <p>v2.0 Call flow script for my team</p>
+                    <a href="Jake Call Flow Script" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Daily Account Roadmap pitch (Now Account Spotlight)</h3>
+                    <p>Initial idea pitch</p>
+                    <a href="HPI 2.0 - Daily Accounts Roadmap (1).pptx" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>DAR/Account Spotlight</h3>
+                    <p>Account Spotlight working sheet showing logic for lead scoring</p>
+                    <a href="Working Sheet - Account Spotlight (2).xlsx" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Account Spotlight Phase 1 and beyond</h3>
+                    <p>Account Spotlight additional departmental indications</p>
+                    <a href="Account Spotlight (1).pptx" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Mistral 7b Fine Tune</h3>
+                    <p>A fine-tuned LLM personalized to my coaching</p>
+                    <a href="mistral-finetune-own-data (1).ipynb" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Open Opportunity Prediction Model</h3>
+                    <p>A python based learning model predicting opportunities as closed won/lost</p>
+                    <a href="app.py" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Whale Finder Model</h3>
+                    <p>A python based learning model identifying factors affecting deal size</p>
+                    <a href="whale finder data analysis .xlsx" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Reactivation Identifier</h3>
+                    <p>A python based learning model predicting accounts most likely to reactivate</p>
+                    <a href="usage identifier.xlsx" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>The Cash Cow - GPT</h3>
+                    <p>An OpenAI custom GPT based on sales trainings and call transcripts</p>
+                    <a href="https://chatgpt.com/g/g-LXYpNAftc-phil-the-cash-cow" target="_blank">View Project</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
+            <ul>
+                <li>Sales Leadership & Business Development</li>
+                <li>Account Management & Customer Success</li>
+                <li>Data Analysis & ML Implementation</li>
+                <li>Python, SQL, Salesforce, Excel</li>
+                <li>AI/ML Technologies (OpenAI, Langchain, etc.)</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                <h3>Sales Manager - Mid-Market | Salesforce</h3>
+                <p>November 2021 - Present</p>
+                <ul>
+                    <li>Exceeded $4.4MM in bookings MRR by leading a team of 12 account managers, expanding existing 100% YoY</li>
+                    <li>Drove 115% attainment through strategic account planning and pipeline management</li>
+                    <li>Coached and mentored team members on sales tactics and AI-Draper methodology</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior Strategic Account Manager, Mid-Market | Salesforce</h3>
+                <p>April 2019 - November 2021</p>
+                <ul>
+                    <li>Consistently ranked in the top 5% of 1000+ sales reps, earning President's Club honors in 2019 and 2020</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jake Pittman. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</body>
+</html>
