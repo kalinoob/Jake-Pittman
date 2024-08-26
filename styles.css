@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 :root {
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
     --accent-color: #e74c3c;
     --background-color: #ecf0f1;
     --text-color: #333;
+    --highlight-color: #8e44ad;
+    --highlight-color-2: #c0392b;
 }
 
 body {
@@ -44,7 +48,7 @@ header::before {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(45deg, var(--primary-color), var(--highlight-color));
     animation: rotate 20s linear infinite;
     opacity: 0.8;
 }
@@ -136,6 +140,14 @@ h2::after {
     text-align: center;
 }
 
+#search {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -165,7 +177,7 @@ h2::after {
 }
 
 .btn:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--highlight-color-2);
 }
 
 .skills-container {
